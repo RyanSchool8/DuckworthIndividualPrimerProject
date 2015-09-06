@@ -3,4 +3,4 @@
 9/5/15 - Experimentation with test CGI scripts and test HTML pages.  
 9/6/15 1:23pm - Initial readme created.  
 9/6/15 1:35pm - index.html and simple.cgi initial file created.  
-9/6/15 1:46pm
+9/6/15 1:49pm - simple.cgi file updated to contain debugging and testing information.
