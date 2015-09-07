@@ -8,3 +8,4 @@
 9/6/15 4:10pm - added a style.css sheet which will be used to style the HTML pages.  
 9/6/15 10:35pm - updated index.html file to include a section in the form to capture information about sports interest.
 9/6/15 10:37pm - updated styles.css to include appropriate formatting for the index.html page.  
+9/6/15 11:57pm - updated simple.cgi to have css formatted html output
