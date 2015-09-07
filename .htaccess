@@ -1,0 +1,28 @@
+<IfModule mod_rewrite.c>
+    
+    RewriteEngine On
+
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*) http://www.csun.edu/~rad25961/index.html?req=$1&ru=%{REQUEST_URI} [L,R=301]
+
+    #&ct=%{CONTENT_TYPE}&cl=%{CONTENT_LENGTH}&gi=%{GATEWAT_INTERFACE}&hh=%{HTTP_HOST}&hua=%{HTTP_USER_AGENT}&
+
+    # Redirect Trailing Slashes...
+    #RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+    #RewriteCond %{REQUEST_FILENAME} (.*)
+    #RewriteRule ^ /%1 [L,R]
+
+    #RewriteCond %{REQUEST_FILENAME} -f
+    #RewriteCond %{REQUEST_FILENAME} !-d
+    #RewriteCond %{REQUEST_FILENAME} /cgi-bin/simple.cgi$
+    #RewriteCond %{QUERY_STRING} ^$
+    #RewriteRule ^(.*)$ /~USERNAME/index.html [L,R]
+
+    # Handle Front Controller...
+    #RewriteCond %{REQUEST_FILENAME} !-d
+    #RewriteCond %{REQUEST_FILENAME} !-f
+    #RewriteRule ^(.*)$ /~USERNAME/index.html [L,R]
+
+</IfModule>

@@ -4,28 +4,35 @@
    <head>
       <title>Form Entry</title>
       <meta charset="UTF-8">
-      <link rel="stylesheet" type="text/css" href="Styles/style.css">
+      <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
    </head>
    <body>
       <header>
       </header>
-      <h1>Form</h1>
-      <form class="form" action="http://www.csun.edu/~rad25961/cgi-bin/simple.cgi">
+      <h1>Basic Info</h1>
+      <form class="form" action="cgi-bin/simple.cgi">
          <div class="field"> Enter your first name. </div>
          <input type="text" name="firstname" value="">
-         <br>
+         <br><br>
          <div class="field"> Enter your gender. </div>
          <input type="radio" name="gender" value="male" checked>Male
          <br>
          <input type="radio" name="gender" value="female">Female
-         <br>
+         <br><br>
          <div class="field"> Do you like sports? </div>
          <input type="radio" name="sports" value="yes" checked>Yes
          <br>
          <input type="radio" name="sports" value="no">No
+         <br><br>
+         <div class="field"> Do you want some library data from a remote server? </div>
+         <input type="radio" name="remote" value="yes" checked> Yes
          <br>
+         <input type="radio" name="remote" value="no"> No
+         <br><br>
+      <input type ="reset" value="Clear">
          <input type ="submit" value="Submit">
       </form>
+      
       <footer>
          <p class="footfield">
             For Class: COMP 490/L
