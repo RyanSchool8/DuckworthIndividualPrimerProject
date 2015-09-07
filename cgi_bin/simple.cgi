@@ -16,9 +16,6 @@ def insert_div(content):
     print("<div>Inserting div</div>")
     print("<div>%s</div>" %(content))
 
-def test():
-    print("<div>TEST</div>")
-
 print("Content-type:text/html\n\n")
 
 try:
@@ -61,7 +58,7 @@ try:
         print("</body>")
         print("<footer></footer>")
         print("</html>")
-        
+
 except Exception:
     print("")
     print(traceback.format_exc())
