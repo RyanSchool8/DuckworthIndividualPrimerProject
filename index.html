@@ -2,20 +2,34 @@
 
 <html>
    <head>
-      <title>Are you a fan?</title>
+      <title>Form Entry</title>
       <meta charset="UTF-8">
+      <link rel="stylesheet" type="text/css" href="Styles/style.css">
    </head>
    <body>
-      <h1>Sample Heading</h1>
-      <div>TODO</div>
-      <form action="http://www.csun.edu/~rad25961/cgi-bin/simple.cgi">
+      <header>
+      </header>
+      <h1>Form</h1>
+      <form class="form" action="http://www.csun.edu/~rad25961/cgi-bin/simple.cgi">
+         <div class="field"> Enter your first name. </div>
          <input type="text" name="firstname" value="">
          <br>
-         <input type="radio" name="sex" value="male" checked>Male
+         <div class="field"> Enter your gender. </div>
+         <input type="radio" name="gender" value="male" checked>Male
          <br>
-         <input type="radio" name="sex" value="female">Female
+         <input type="radio" name="gender" value="female">Female
+         <br>
+         <div class="field"> Do you like sports? </div>
+         <input type="radio" name="sports" value="yes" checked>Yes
+         <br>
+         <input type="radio" name="sports" value="no">No
          <br>
          <input type ="submit" value="Submit">
       </form>
+      <footer>
+         <p class="footfield">
+            For Class: COMP 490/L
+         </p>
+      </footer>
    </body>
 </html>
