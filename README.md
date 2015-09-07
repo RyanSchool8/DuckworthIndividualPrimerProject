@@ -10,4 +10,4 @@
 9/6/15 10:37pm - updated styles.css to include appropriate formatting for the index.html page.  
 9/6/15 11:57pm - updated simple.cgi to have css formatted html output
 9/7/15 1:10am - updated the simple.cgi file to respond to different query strings based on their content.  
-9/7/15 2:18am - uploaded images used for displaying and edited the simple.cgi script
+9/7/15 2:18am - uploaded images used for displaying and edited the simple.cgi script.  
