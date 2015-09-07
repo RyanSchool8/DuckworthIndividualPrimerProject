@@ -27,16 +27,6 @@ def test():
 
 print("Content-type:text/html\n\n")
 
-"""
-
-if True:
-    insert_div("1")
-    Parse_QS("Name=Roger&Occupation=Gardener")
-    #test()
-
-else:
-
-"""
 try:
     query_string = os.environ["QUERY_STRING"]
     if query_string:
@@ -44,6 +34,7 @@ try:
         print("<html>")
         print("<head>")
         print("<title>CGI Test</title>")
+        print('<link rel="stylesheet" type="text/css" href="../style.css">')
         print("</head>")
         print("<body>")
         if query_dict["firstname"].lstrip() != "":
@@ -60,8 +51,8 @@ try:
     print(query_string)
 
     print("<div>")
-    for entry in os.environ.keys():
-        print("<b>%20s</b>: %s <br><br>" % (entry, os.environ[entry]))
+    #for entry in os.environ.keys():
+    #    print("<b>%20s</b>: %s <br><br>" % (entry, os.environ[entry]))
     print("</div>")
     print("<h2>Simple CGI test</h2>")
     print("</body>")
