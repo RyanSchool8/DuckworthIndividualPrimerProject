@@ -1,6 +1,10 @@
 # DuckworthIndividualPrimerProject  
 Project Status: Final Phase  
 
+Summary:
+This project contains an html file where the user fills out a form with the information specified. Then based on the responses to the form the user will be delivered an HTML page with different content on it. If the user selects the radial button that corresponds to remote data, then the cgi script will display the first 5 results from a plain text file from the following URL: https://public.opencpu.org/ocpu/library/. If the cgi script is supplied no query string or if the query string does not conform to the conventions used by the script, then an HTML page indicating an error will be displayed and a link will be provided to the user to navigate back to the index.html form page.  
+
+Changelog:
 9/4/15 - Research on CGI basic concepts and apache server configuration.  
 9/5/15 - Experimentation with test CGI scripts and test HTML pages.  
 9/6/15 1:23pm - Initial readme created.  

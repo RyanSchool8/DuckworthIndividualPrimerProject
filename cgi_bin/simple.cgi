@@ -65,7 +65,7 @@ try:
             print('<div>And remember: "We don\'t make mistakes; we just have happy accidents."<br>- Bob Ross</div>')
 
         if query_dict["remote"] == "yes":
-
+            #NOTE: All data used in this section is retrieved from https://public.opencpu.org/ocpu/library/ and is used for educational purposes only.
             response = urllib2.urlopen('https://public.opencpu.org/ocpu/library/')
 
             #respons_info = response.info()
