@@ -12,3 +12,4 @@
 9/7/15 1:10am - updated the simple.cgi file to respond to different query strings based on their content.  
 9/7/15 2:18am - uploaded images used for displaying and edited the simple.cgi script.  
 9/7/15 3:34pm - updated the simple.cgi file to contain formatted html if there is an error parsing the query string or if there is no query string provided. Also updated the file to get some library information from a remote server. The index.html file was updated to give the option of getting the remote library information or not.  
+9/7/15 3:38pm - .htaccess file was added on a testing basis.  
