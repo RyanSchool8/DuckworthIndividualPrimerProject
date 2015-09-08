@@ -24,7 +24,7 @@ print("<html>")
 print("<header></header>")
 print("<head>")
 print("<title>CGI Test</title>")
-print('<link rel="stylesheet" type="text/css" href="../style.css">')
+print('<link rel="stylesheet" type="text/css" href="../stylesheets/style.css">')
 print("</head>")
 print("<body>")
 
