@@ -1,3 +1,5 @@
+#Ryan Duckworth
+#9/7/15
 # DuckworthIndividualPrimerProject  
 Project Status: Complete 
 
