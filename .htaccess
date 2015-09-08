@@ -6,7 +6,7 @@
     #NOTE: This method cannot be used if the directory where the files are are stored is not known ahead of time. Because of that, these .htaccess rules cannot be allowed to run when this is being submitted for grading.
     RewriteBase /~rad25961/
 
-    #RewriteCond %{REQUEST_FILENAME} -d
+    RewriteCond %{REQUEST_FILENAME} -d
     RewriteRule ^ - [L]
 
     # Redirect Trailing Slashes...
