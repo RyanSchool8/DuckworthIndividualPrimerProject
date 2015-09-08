@@ -1,5 +1,5 @@
 # DuckworthIndividualPrimerProject  
-Project Status: Final Phase  
+Project Status: Complete 
 
 Summary:
 This project contains an html file where the user fills out a form with the information specified. Then based on the responses to the form the user will be delivered an HTML page with different content on it. If the user selects the radial button that corresponds to remote data, then the cgi script will display the first 5 results from a plain text file from the following URL: https://public.opencpu.org/ocpu/library/. If the cgi script is supplied no query string or if the query string does not conform to the conventions used by the script, then an HTML page indicating an error will be displayed and a link will be provided to the user to navigate back to the index.html form page.  
@@ -19,3 +19,4 @@ Changelog:
 9/7/15 2:18am - uploaded images used for displaying and edited the simple.cgi script.  
 9/7/15 3:34pm - updated the simple.cgi file to contain formatted html if there is an error parsing the query string or if there is no query string provided. Also updated the file to get some library information from a remote server. The index.html file was updated to give the option of getting the remote library information or not.  
 9/7/15 3:38pm - .htaccess file was added on a testing basis.  
+9/7/15 9:14pm - file permissions changed for the simple.cgi file in the repository. Turned off the rewrite engine for the .htaccess file because of unknown rewrite base on /~steve/. (Also, can't have both /~rad25961/ and /~steve/x/y/z as a rule that works for both)
