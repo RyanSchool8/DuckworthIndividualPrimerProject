@@ -1,8 +1,13 @@
 # DuckworthIndividualPrimerProject  
 Project Status: Complete 
 
+Directions: Enter a URL that corresponds to the directory where the files are located (example: http://www.csun.edu/~rad25961/) and fill out the form that appears.
+
 Summary:
-This project contains an html file where the user fills out a form with the information specified. Then based on the responses to the form the user will be delivered an HTML page with different content on it. If the user selects the radial button that corresponds to remote data, then the cgi script will display the first 5 results from a plain text file from the following URL: https://public.opencpu.org/ocpu/library/. If the cgi script is supplied no query string or if the query string does not conform to the conventions used by the script, then an HTML page indicating an error will be displayed and a link will be provided to the user to navigate back to the index.html form page.  
+
+This project contains an html file where the user fills out a form with the information specified. Then based on the responses to the form the user will be delivered an HTML page with different content on it. If the user selects the radial button that corresponds to remote data, then the cgi script will display the first 5 results from a plain text file from the following URL: https://public.opencpu.org/ocpu/library/. If the cgi script is supplied no query string or if the query string does not conform to the conventions used by the script, then an HTML page indicating an error will be displayed and a link will be provided to the user to navigate back to the index.html form page.
+
+*NOTE* That the .htaccess rewrite module was turned off prior to submission because of uncertainty if the project would be run in a subdirectory of /~steve/. Therefore instead of risking a server error because of this, the module was turned off instead. 
 
 Changelog:
 9/4/15 - Research on CGI basic concepts and apache server configuration.  
